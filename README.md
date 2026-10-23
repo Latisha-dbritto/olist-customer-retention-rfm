@@ -1,5 +1,3 @@
-# olist-customer-retention-rfm
-
 # Olist Customer Retention, Revenue Concentration and RFM Segmentation
 
 I wanted to find out how an online marketplace can grow its revenue from the customers it already has. I looked at three questions:
