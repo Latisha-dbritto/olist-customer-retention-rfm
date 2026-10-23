@@ -12,4 +12,4 @@ select month_offset, count(distinct customer_unique_id) as customer_count from(
     on c.customer_unique_id = cohorts.customer_unique_id 
     inner join orders o
     on o.customer_id = c.customer_id) as retention
-group by month_offset
+group by month_offset  
