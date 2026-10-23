@@ -43,6 +43,6 @@ One thing to watch in this dataset: `customer_id` changes with every order, so t
 ## Files
 - [sql/](sql/): the SQL queries
 - [python/](python/): `retention_analysis.py` (retention curve) and `recency.py` (RFM segments)
-- [outputs/](outputs/): the small result tables
+- [output/](output/): the small result tables
 - [dashboard/](dashboard/): the Power BI file and screenshots
 
