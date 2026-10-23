@@ -8,7 +8,7 @@ I wanted to find out how an online marketplace can grow its revenue from the cus
 
 ## Data
 
-Brazilian E-Commerce Public Dataset by Olist, from Kaggle (about 99,000 orders and 95,000 customers, 2016 to 2018). The raw files are large, so they are not in this repo. You can download them from Kaggle and run the SQL yourself.
+[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), from Kaggle (about 99,000 orders and 95,000 customers, 2016 to 2018). The raw files are large, so they are not in this repo. You can download them from Kaggle and run the SQL yourself.
 
 One thing to watch in this dataset: `customer_id` changes with every order, so the same person can have many of them. `customer_unique_id` is the one that identifies a person. If you use `customer_id`, every order looks like a new customer. I used `customer_unique_id`.
 
